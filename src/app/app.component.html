@@ -1,0 +1,8 @@
+<button (click)="increment()">Increment from angular</button>
+<button (click)="decrement()">Decrement from angular</button>
+<app-react-embed
+  [counter]="counter"
+  (onReset)="handleReset()"
+  (onIncrement)="increment()"
+  (onDecrement)="decrement()"
+></app-react-embed>
